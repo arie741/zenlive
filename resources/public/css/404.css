@@ -1,0 +1,16 @@
+/*************** 404 page ***********************/
+.noPage h2, p {
+    color: #111111;
+}
+
+.noPage a {
+    color: #ffa902;
+}
+
+.noPage a:hover {
+    color: #B38C42;
+}
+
+.noPage i {
+    padding:5px;
+}

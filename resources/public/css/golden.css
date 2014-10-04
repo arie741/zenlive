@@ -1,0 +1,77 @@
+/*Golden #DAA520 */
+
+.btn:focus,.subscribe-btn, .progress .progress-bar, .accordionMod .panel-heading .current, #current:after, .nivo-prevNav:hover, .nivo-nextNav:hover, .contact-box:hover, #options li a.selected, .ch-info .ch-info-back {
+    background: #666666;
+}
+
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus, .pager li > a:hover, .pager li > a:focus, .navbar-toggle i, .cn-wrapper li a, .cn-wrapper:after {
+    background-color: #666666;
+    color: #fff;
+}
+
+#options li a.selected {
+	border: 1px solid #D3AE57;
+}
+
+.ie8 .btn-color, .ie9 .btn-color {
+	background: #666666 !important;
+}
+
+.ie8 .btn-color:hover, .ie9 .btn-color:hover {
+	background: #666666 !important;
+}
+
+.default-tabs #tab1, .default-tabs #tab2, .default-tabs #tab3, .default-tabs #tab4{
+    border-top:3px solid #D3AE57;
+}
+
+.default-tabs #tab1.current, .default-tabs #tab2.current, .default-tabs #tab3.current, .default-tabs #tab4.current{
+    border-top:3px solid #666666;
+}
+
+.subscribe-btn:hover {
+	background: -webkit-linear-gradient(#33312B,#AC8F4D);
+	background: -moz-linear-gradient(#33312B,#AC8F4D);
+	background: -o-linear-gradient(#33312B,#AC8F4D);
+	background: -ms-linear-gradient(#33312B,#AC8F4D);
+	background: linear-gradient(#33312B,#AC8F4D);
+}
+
+.btn-color , .subscribe-btn{
+	background: -webkit-linear-gradient(#222221,#6B6B64);
+	background: -moz-linear-gradient(#222221,#6B6B64);
+	background: -o-linear-gradient(#222221,#6B6B64);
+	background: -ms-linear-gradient(#222221,#6B6B64);
+	/* background: linear-gradient(#222221,#6B6B64); */
+	/* border: 1px solid #000000; */
+
+	/* -webkit-box-shadow: inset 0 1px 1px 0 #5A5854, 0 2px 0 -1px rgba(0,0,0,0.2); */
+	/* box-shadow: inset 0 1px 1px 0 #83817B, 0 2px 0 -1px rgba(0,0,0,0.2); */
+	cursor: pointer;
+}
+
+#current,.menu ul li a:hover,.menu ul>li:hover>a {
+    border-bottom: 3px solid #D3AE57;
+}
+
+ul.why li:before {
+    background: #666666;
+}
+
+.menu ul ul {
+    border-top: 3px solid #D3AE57 !important;
+}
+
+#vertical-tabs ul.tabs li.current {
+    border-left: 2px solid #D3AE57;
+}
+
+
+.author-content, div.content-box.big, #cn-tabs .service, .comment-des, .contact-box {
+	border-bottom-color:#D3AE57;
+}
+
+a, .post-item h4 a:hover, .cn-wrapper li a:hover, .cn-wrapper li a.active {
+    color: #428BCA;
+}
