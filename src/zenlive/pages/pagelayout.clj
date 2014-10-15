@@ -3,15 +3,14 @@
             [clojure.tools.reader.edn :as edn]))
 
 ;;layout
-(def dir "selmer/")
 
-(html/deftemplate header (str dir "header.html")
+(html/deftemplate header "selmer/header.html"
   [])
 
-(html/deftemplate footer (str dir "footer.html")
+(html/deftemplate footer "selmer/footer.html"
   [])
 
-(html/deftemplate layout (str dir "layout.html")
+(html/deftemplate layout "selmer/layout.html"
   [content contenttitle]
   [:title] (html/content contenttitle)
   [:header] (html/html-content (apply str (header)))
